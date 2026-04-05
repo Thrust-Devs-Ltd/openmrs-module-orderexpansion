@@ -37,11 +37,12 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '8'
-          # This creates a temporary settings.xml mapped to the 'github' server ID
-          server-id: github
+          # This creates a temporary settings.xml mapped to the 'thrust-devs-orderexpansion-repo' server ID
+          server-id: thrust-devs-orderexpansion-repo
           settings-path: ${{ github.workspace }}
 
       - name: Publish
         run: mvn deploy -DskipTests --batch-mode -s ${{ github.workspace }}/settings.xml
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ secrets.ORG_PUBLISH_USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.ORG_PUBLISH_TOKEN }}
