@@ -54,14 +54,14 @@
 
 	<distributionManagement>
 		<repository>
-			<id>mks-repo</id>
-			<name>Mekom Solutions Nexus Releases</name>
-			<url>https://nexus.mekomsolutions.net/repository/maven-releases</url>
+			<id>thrust-devs-orderexpansion-repo</id>
+			<name>GitHub Thrust-Devs-Ltd Apache Maven Package - orderexpansion </name>
+			<url>https://maven.pkg.github.com/Thrust-Devs-Ltd/openmrs-module-orderexpansion</url>
 		</repository>
 		<snapshotRepository>
-			<id>mks-repo-snapshots</id>
-			<name>Mekom Solutions Nexus Snapshots</name>
-			<url>https://nexus.mekomsolutions.net/repository/maven-snapshots</url>
+			<id>thrust-devs-orderexpansion-repo-snapshot</id>
+			<name>GitHub Thrust-Devs-Ltd Apache Maven Snapshot - orderexpansion</name>
+			<url>https://maven.pkg.github.com/Thrust-Devs-Ltd/openmrs-module-orderexpansion</url>
 		</snapshotRepository>
 	</distributionManagement>
 
