@@ -55,12 +55,12 @@
 	<distributionManagement>
 		<repository>
 			<id>thrust-devs-orderexpansion-repo</id>
-			<name>GitHub Thrust-Devs-Ltd Apache Maven Package - orderexpansion </name>
+			<name>thrust-devs Github Releases - orderexpansion</name>
 			<url>https://maven.pkg.github.com/Thrust-Devs-Ltd/openmrs-module-orderexpansion</url>
 		</repository>
 		<snapshotRepository>
 			<id>thrust-devs-orderexpansion-repo-snapshot</id>
-			<name>GitHub Thrust-Devs-Ltd Apache Maven Snapshot - orderexpansion</name>
+			<name>thrust-devs Github Snapshots - orderexpansion</name>
 			<url>https://maven.pkg.github.com/Thrust-Devs-Ltd/openmrs-module-orderexpansion</url>
 		</snapshotRepository>
 	</distributionManagement>
