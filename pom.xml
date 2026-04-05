@@ -59,7 +59,7 @@
 			<url>https://maven.pkg.github.com/Thrust-Devs-Ltd/openmrs-module-orderexpansion</url>
 		</repository>
 		<snapshotRepository>
-			<id>thrust-devs-orderexpansion-repo-snapshot</id>
+			<id>thrust-devs-orderexpansion-repo</id>
 			<name>thrust-devs Github Snapshots - orderexpansion</name>
 			<url>https://maven.pkg.github.com/Thrust-Devs-Ltd/openmrs-module-orderexpansion</url>
 		</snapshotRepository>
